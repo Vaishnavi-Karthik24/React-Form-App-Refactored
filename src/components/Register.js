@@ -8,7 +8,7 @@ const Register = () => {
   // Username and Password Validators
   const USER_REGEX = /^[a-zA-Z_][a-zA-Z0-9-_]{3,23}$/
   const PASS_REGEX =
-    /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[@$!%*?&])[A-Za-zd@$!%*?&].{8,24}$/
+    /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[@$!%*?&])[A-Za-zd@$!%*?&].{7,24}$/
   const MAIL_REGEX = /\S+@\S+\.\S+/
 
   const userRef = useRef()
