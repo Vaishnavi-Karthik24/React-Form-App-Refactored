@@ -1,0 +1,20 @@
+.dashboard-navigates.navigate {
+    display: none;
+}
+
+#navigate {
+    display: block !important;
+}
+     
+#dashboard-navigates {
+    display: none !important;
+}
+
+.offscreen {
+    display: none;
+}
+
+.dashboard-logo {
+    width: 80px;
+    height: 60px;
+}
